@@ -160,13 +160,9 @@ const serviceContent: Record<string, ServiceContent> = {
   },
 };
 
-const serviceIcons: Record<string, any> = {
+const serviceIcons: Record<string, React.ComponentType<{ className?: string }>> = {
   Code, Zap, Globe, Rocket, Shield, Lightbulb, Target, Brain, Network, TrendingUp, CheckCircle, ArrowRight
 };
-
-function getIcon(iconName: string) {
-  return serviceIcons[iconName] || CheckCircle;
-}
 
 export const dynamic = 'force-dynamic';
 

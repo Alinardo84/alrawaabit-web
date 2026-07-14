@@ -1,0 +1,22 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="logo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1100" cy="80" r="120" fill="#F97316" opacity="0.08"/>
+  <circle cx="100" cy="580" r="80" fill="#F97316" opacity="0.08"/>
+  <rect x="520" y="180" width="160" height="160" rx="40" fill="url(#logo)"/>
+  <path d="M600 220C580 220 565 235 565 255C565 275 580 290 600 290C620 290 635 275 635 255C635 235 620 220 600 220ZM595 330C575 325 560 305 560 285V275L545 260C540 255 540 248 545 243L565 223C568 220 572 218 576 218H586C590 210 598 205 608 205C628 205 645 220 645 240C645 248 642 255 638 260L623 275V285C623 305 608 325 590 330V345H610V365C610 375 618 383 628 383C638 383 646 375 646 365V345H666C676 345 684 337 684 327V307H684C694 307 702 299 702 289V249C702 230 706 211 714 193C716 188 718 184 718 180V170C718 164 713 159 707 159C704 159 701 160 699 162C693 168 688 174 684 181C672 201 666 224 666 247V287C666 295 661 300 653 300H648V250C648 246 645 243 641 243C637 243 634 246 634 250V250H634C612 250 594 232 594 210V200C594 193 588 189 582 189C578 189 575 191 573 194L553 214C548 219 548 226 553 231L568 246V256C568 276 583 296 601 301V316H581V296C581 286 573 278 563 278C553 278 545 286 545 296V316H525C515 316 507 324 507 334V354C507 364 515 372 525 372H545V392C545 402 553 410 563 410C573 410 581 402 581 392V372H601V387C601 397 609 405 619 405H639C649 405 657 397 657 387V372H677C687 372 695 364 695 354V334C695 324 687 316 677 316H657V306C657 296 649 288 639 288C629 288 621 296 621 306V316H601V306C601 296 593 288 583 288C573 288 565 296 565 306V316H545V336C545 346 553 354 563 354H583V374C583 384 591 392 601 392H621C631 392 639 384 639 374V354H659C669 354 677 346 677 336V316C677 306 669 298 659 298" fill="white" opacity="0.95"/>
+  <text x="600" y="420" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800" fill="white" text-anchor="middle">AlRawaabit</text>
+  <text x="600" y="465" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500" fill="#94A3B8" text-anchor="middle">Digital Marketing Agency — Egypt &amp; Gulf</text>
+  <rect x="350" y="510" width="500" height="50" rx="25" fill="white" opacity="0.1"/>
+  <text x="600" y="542" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="500" fill="#F97316" text-anchor="middle">Web Development • SEO • AEO • GEO</text>
+</svg>

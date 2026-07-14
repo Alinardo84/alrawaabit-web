@@ -1,0 +1,11 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="48" fill="url(#logoGrad)"/>
+  <path d="M100 50C80 50 65 65 65 85C65 105 80 120 100 120C120 120 135 105 135 85C135 65 120 50 100 50ZM95 160C75 155 60 135 60 115V105L45 90C40 85 40 78 45 73L65 53C68 50 72 48 76 48H86C90 40 98 35 108 35C128 35 145 50 145 70C145 78 142 85 138 90L123 105V115C123 135 108 155 90 160V175H110V195C110 205 118 213 128 213C138 213 146 205 146 195V175H166C176 175 184 167 184 157V137H184C194 137 202 129 202 119V79C202 60 206 41 214 23" fill="white" opacity="0.95"/>
+  <text x="100" y="185" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">الروابط</text>
+</svg>
