@@ -1,0 +1,431 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Nos Services",
+    "webDevelopment": "Développement Web",
+    "seo": "Services SEO",
+    "aeo": "Services AEO",
+    "geo": "Services GEO",
+    "caseStudies": "Réalisations",
+    "mediaCenter": "Centre Média",
+    "blog": "Blog",
+    "techTips": "Conseils Techniques",
+    "businessSegments": "Secteurs d'Activité",
+    "contact": "Contact",
+    "getInTouch": "Nous Contacter",
+    "search": "Rechercher"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "readMore": "Lire la suite",
+    "viewMore": "Voir plus",
+    "sendMessage": "Envoyer le message",
+    "submit": "Envoyer",
+    "success": "Succès !",
+    "error": "Une erreur est survenue",
+    "required": "Champ requis",
+    "emailInvalid": "Adresse email invalide",
+    "phoneInvalid": "Numéro de téléphone invalide",
+    "nameRequired": "Le nom est requis",
+    "messageRequired": "Le message est requis",
+    "backToHome": "Retour à l'accueil",
+    "lastUpdated": "Dernière mise à jour",
+    "language": "Langue"
+  },
+  "home": {
+    "hero": {
+      "badge": "Première Agence de Marketing Digital en Égypte Spécialisée en AEO et GEO",
+      "title": "Votre Site Ne Vend Pas ?",
+      "subtitle": "Chez AlRawaabit, nous construisons <strong>l'infrastructure numérique</strong> pour les entreprises ambitieuses en <strong>Égypte et dans le Golfe</strong> — du développement web et SEO, à l'apparition dans les réponses IA (AEO/GEO), <strong>pour transformer vos visiteurs en véritables partenaires de succès.</strong>",
+      "ctaPrimary": "Analyser Mon Site Gratuitement",
+      "ctaSecondary": "Réserver un Appel Stratégique",
+      "stats": {
+        "countries": "Pays dans la Région",
+        "projects": "Projets Développés",
+        "experience": "Années d'Expérience Réelle",
+        "clients": "Clients de Confiance"
+      }
+    },
+    "about": {
+      "title": "AlRawaabit",
+      "subtitle": "Votre Partenaire Stratégique en Ingénierie d'Actifs Numériques.",
+      "description": "\"AlRawaabit\" n'est pas qu'une <strong>agence de développement web</strong> ; nous sommes une institution spécialisée dans la construction <strong>d'infrastructure numérique</strong> pour les entreprises ambitieuses. Nous comprenons que les marchés égyptien et du Golfe n'ont pas besoin de plus de \"beaux sites\" — ils ont besoin d'outils technologiques qui servent les objectifs de rentabilité. Nous combinons <strong>la puissance de la programmation (Web Development)</strong> et <strong>l'intelligence des données (GEO/SEO)</strong> pour vous donner un <strong>avantage concurrentiel durable</strong>, loin du bruit des publicités temporaires.",
+      "cta": "En Savoir Plus sur AlRawaabit"
+    },
+    "problems": {
+      "title": "Votre Site Souffre-t-il de Ces Problèmes ?",
+      "items": [
+        {
+          "title": "Visiteurs Sans Conversions",
+          "desc": "Votre site reçoit des visiteurs mais ils ne se convertissent pas en clients"
+        },
+        {
+          "title": "Absent de la Première Page",
+          "desc": "Vous n'apparaissez pas sur la première page de Google pour vos services"
+        },
+        {
+          "title": "Invisible à l'IA",
+          "desc": "Vos concurrents sont mentionnés dans les réponses ChatGPT et Google SGE — vous êtes absent"
+        }
+      ],
+      "truth": "La Vérité Que Personne Ne Vous Dit :",
+      "truthDesc": "94% des internautes ne dépassent jamais la première page. Et maintenant, l'IA devient le premier intermédiaire entre le client et votre service — avant Google lui-même."
+    },
+    "pillars": {
+      "title": "Un Système Intégré de 4 Piliers pour une Dominance Digitale Réelle",
+      "items": [
+        {
+          "title": "Développement Web",
+          "desc": "Des sites pas construits pour la beauté — construits pour vendre. Nous concevons chaque page selon la psychologie de l'acheteur et l'ingénierie UX, avec une architecture technique solide garantissant vitesse de chargement et indexation facile dès le premier jour. <strong>Service le Plus Demandé</strong> — nous intégrons design, développement et SEO en un projet cohérent.",
+          "link": "Développement Web"
+        },
+        {
+          "title": "Optimisation pour les Moteurs de Réponse (AEO)",
+          "desc": "Quand votre client demande à Google votre service, votre nom apparaît dans la première case — avant qu'il ne clique sur un lien. Nous préparons votre contenu pour répondre précisément aux vraies questions de vos clients, remportant les Featured Snippets et People Also Ask.",
+          "link": "Services AEO"
+        },
+        {
+          "title": "Optimisation pour les Moteurs de Recherche (SEO)",
+          "desc": "Un classement durable sur Google qui apporte des clients qualifiés — pas de pubs payantes, pas de chance. Nous construisons une stratégie SEO sur mesure pour les marchés égyptien et du Golfe, ciblant les mots-clés que votre client réel recherche au moment de la décision d'achat.",
+          "link": "Services SEO"
+        },
+        {
+          "title": "Avantage Exclusif : Optimisation pour l'IA Générative (GEO)",
+          "desc": "C'est la différence qui nous distingue : nous garantissons que ChatGPT, Gemini et Perplexity recommandent les clients d'AlRawaabit quand on demande les meilleures agences de marketing digital. Ce n'est pas le futur — ça arrive maintenant. <strong>Première agence en Égypte à offrir le GEO comme service indépendant avant qu'il ne devienne un standard.</strong>",
+          "link": "Services GEO"
+        }
+      ]
+    },
+    "process": {
+      "title": "Comment Nous Transformons Votre Site en Machine de Vente en 3 Étapes",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Diagnostic & Analyse",
+          "desc": "Nous commençons par une analyse complète de votre état digital actuel : performance du site, mots-clés, concurrents, et lacunes de contenu. Nous ne commençons pas l'exécution avant de comprendre parfaitement votre marché."
+        },
+        {
+          "number": "2",
+          "title": "Construction & Structure",
+          "desc": "Nous construisons le système digital basé sur une stratégie sur mesure : design du site, structure de contenu, Schema Markup, et architecture technique qui fait que Google fait confiance à votre site dès le premier jour."
+        },
+        {
+          "number": "3",
+          "title": "Lancement & Optimisation Continue",
+          "desc": "Nous lançons la plateforme et surveillons la performance avec des rapports mensuels transparents. L'optimisation ne s'arrête jamais — nous nous adaptons aux mises à jour Google et aux évolutions de l'IA pour assurer votre domination continue."
+        }
+      ]
+    },
+    "sectors": {
+      "title": "Nous Conçevons Nos Systèmes pour Servir les Secteurs Qui Cherchent la Qualité",
+      "items": [
+        {
+          "title": "Secteur Industriel & Export",
+          "desc": "Usines égyptiennes cherchant des importateurs internationaux — nous construisons leur présence digitale en anglais et arabe ensemble."
+        },
+        {
+          "title": "Développement Immobilier",
+          "desc": "Promoteurs immobiliers ciblant des acheteurs à forte capacité financière en Égypte et dans le Golfe."
+        },
+        {
+          "title": "Services Professionnels & Entreprises",
+          "desc": "Cabinets d'avocats, conseils, cliniques et centres médicaux — secteurs qui reposent sur la confiance et la crédibilité digitale."
+        },
+        {
+          "title": "PME & Startups",
+          "desc": "PME et Startups ont besoin d'une infrastructure digitale forte dès le premier jour pour raccourcir des années de croissance."
+        }
+      ]
+    },
+    "partners": {
+      "title": "Fiers d'Être le Partenaire Technique & Stratégique de Marques Ambitionnées d'Élite",
+      "subtitle": "Partenaires de Succès Qui Ont Cru en Notre Vision"
+    },
+    "cta": {
+      "title": "Réserver un Appel Stratégique",
+      "subtitle": "Ne laissez pas votre position de marché au hasard. Vos concurrents ont déjà commencé à utiliser les technologies modernes. Êtes-vous prêt à les courir ? Laissez-nous vous donner une analyse complète de votre état digital actuel gratuitement.",
+      "primary": "Obtenir l'Analyse GEO/SEO Maintenant",
+      "secondary": "Réserver un Appel"
+    },
+    "blog": {
+      "title": "Actualités Récentes",
+      "viewAll": "Voir Tout"
+    },
+    "testimonials": {
+      "title": "Ce Que Disent Nos Clients",
+      "items": [
+        {
+          "quote": "Le design est un mode de vie, un point de vue. Il implique tout le complexe des communications visuelles : talent, capacité créative et connaissance technique.",
+          "author": "Mohamed Tayeb",
+          "role": "PDG, El Mundo Company"
+        },
+        {
+          "quote": "Le design est un mode de vie, un point de vue. Il implique tout le complexe des communications visuelles : talent, capacité créative et connaissance technique.",
+          "author": "Silviia Garden",
+          "role": "Client"
+        },
+        {
+          "quote": "Le design est un mode de vie, un point de vue. Il implique tout le complexe des communications visuelles : talent, capacité créative et connaissance technique.",
+          "author": "Tommy Dents",
+          "role": "Client"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Quelle est la différence entre SEO, AEO et GEO ?",
+      "items": [
+        {
+          "q": "Quelle est la différence entre SEO, AEO et GEO ?",
+          "a": "Le SEO assure votre apparition dans les résultats Google traditionnels. L'AEO assure votre apparition dans les Featured Snippets et les réponses directes de Google. Le GEO assure que les systèmes d'IA comme ChatGPT et Gemini vous recommandent quand on demande vos services. Les trois ensemble vous donnent une dominance digitale complète."
+        },
+        {
+          "q": "Combien de temps pour atteindre la première page sur Google ?",
+          "a": "Dans les domaines à concurrence moyenne sur le marché égyptien, nous commençons à voir des résultats tangibles entre 60-90 jours, et la dominance réelle s'atteint entre 4-6 mois avec constance et durabilité — contrairement aux pubs qui s'arrêtent dès la fin du budget."
+        },
+        {
+          "q": "Travaillz-vous avec les petites ou grandes entreprises uniquement ?",
+          "a": "Nous travaillons avec les deux, mais notre vraie spécialisation est les startups et PME qui veulent construire un système digital fort dès le début, et les grandes entreprises qui veulent développer leur présence actuelle et entrer dans l'ère de l'IA."
+        },
+        {
+          "q": "Puis-je développer mon site seulement sans services SEO ?",
+          "a": "Oui, mais nous ne le recommanderions pas. Un site sans SEO intégré dès le début équivaut à construire une boutique dans une rue fermée. Nous intégrons toujours les deux car le coût total est moindre et le résultat plus durable."
+        },
+        {
+          "q": "Quels marchés servez-vous ?",
+          "a": "Notre siège est au Caire, Égypte — et nous servons des clients en Arabie Saoudite, Émirats, Koweït, Qatar, Bahreïn et Oman. Notre expertise du marché égyptien s'étend sur plus de 2 ans, et notre présence dans le Golfe grandit constamment."
+        }
+      ]
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "À Propos d'AlRawaabit",
+      "subtitle": "Construction d'infrastructure numérique depuis 2021"
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "content": "Équiper les entreprises égyptiennes et du Golfe ambitieuses d'une infrastructure numérique qui convertit les visiteurs en partenaires — alliant rigueur d'ingénierie et visibilité à l'ère de l'IA."
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "content": "Devenir le partenaire par défaut de la région pour les entreprises qui refusent de choisir entre beau design et résultats business."
+    },
+    "values": [
+      { "title": "Ingénierie d'Abord", "desc": "Code propre, architecture solide, performance mesurée — avant l'esthétique." },
+      { "title": "Pensée IA-Native", "desc": "Chaque actif que nous construisons est structuré pour la récupération LLM, pas seulement la navigation humaine." },
+      { "title": "Intelligence de Marché", "desc": "Stratégies ancrées dans le comportement de recherche égyptien/golfe, pas des templates globaux copiés." },
+      { "title": "Partenariat Transparent", "desc": "Rapports mensuels, tableaux de bord partagés, pas de boîtes noires. Vous possédez les données." }
+    ],
+    "team": {
+      "title": "Direction",
+      "members": [
+        { "name": "Mohamed Tayeb", "role": "Fondateur & CEO", "bio": "15+ ans en transformation digitale pour entreprises MENA. Pionnier des méthodologies AEO/GEO en Égypte." }
+      ]
+    }
+  },
+  "services": {
+    "webDevelopment": {
+      "hero": {
+        "title": "Développement Web",
+        "subtitle": "Des sites construits pour vendre, pas juste pour être beaux",
+        "desc": "Nous concevons chaque page selon la psychologie de l'acheteur et l'ingénierie UX, avec une architecture technique solide assurant vitesse de chargement et indexation facile dès le premier jour. <strong>Service le Plus Demandé</strong> — nous intégrons design, développement et SEO en un projet cohérent."
+      },
+      "pillars": [
+        { "title": "Design Stratégique", "desc": "UX centré conversion, mobile-first, accessibilité (WCAG 2.2 AA)" },
+        { "title": "Stack Moderne", "desc": "Next.js 15, React 19, TypeScript, Tailwind v4, Edge-ready" },
+        { "title": "SEO Intégré", "desc": "SEO technique, Schema, Core Web Vitals, hreflang dès le jour zéro" },
+        { "title": "Performance", "desc": "Lighthouse 90+, cache Edge, optimisation images, ISR" }
+      ],
+      "process": [
+        "Découverte & Stratégie",
+        "IA & Wireframes",
+        "Design System & UI",
+        "Développement & QA",
+        "Lancement & Monitoring"
+      ],
+      "cta": "Lancer Votre Projet Web"
+    },
+    "seo": {
+      "hero": {
+        "title": "Services SEO",
+        "subtitle": "Des classements durables qui apportent des acheteurs qualifiés",
+        "desc": "Pas de pubs payantes, pas de chance. Nous construisons une stratégie SEO sur mesure pour les marchés égyptien et du Golfe, ciblant les mots-clés que votre client réel recherche au moment de la décision d'achat."
+      },
+      "pillars": [
+        { "title": "SEO Technique", "desc": "Explorabilité, indexation, vitesse, données structurées, Core Web Vitals" },
+        { "title": "Stratégie Contenu", "desc": "Clusters thématiques, intention de recherche, E-E-A-T, rafraîchissements trimestriels" },
+        { "title": "Autorité & Liens", "desc": "RP digitaux, partenariats, actifs linkables, outreach ciblé" },
+        { "title": "Local & International", "desc": "GBP, hreflang, contenu Arabe/Anglais/Français" }
+      ],
+      "deliverables": [
+        "Audit technique complet (200+ points)",
+        "Cartographie mots-clés clusterisés par intention",
+        "Calendrier contenu trimestriel",
+        "Rapport mensuel classement + analyse concurrents",
+        "Optimisation continue data-driven"
+      ],
+      "cta": "Demander Audit SEO Gratuit"
+    },
+    "aeo": {
+      "hero": {
+        "title": "Services AEO",
+        "subtitle": "Soyez la première réponse — avant tout lien",
+        "desc": "Quand votre client demande à Google votre service, votre nom apparaît dans la première case — avant qu'il ne clique sur un lien. Nous préparons votre contenu pour répondre précisément aux vraies questions de vos clients, remportant Featured Snippets et People Also Ask."
+      },
+      "whatIs": {
+        "title": "Qu'est-ce que l'AEO ?",
+        "desc": "L'Answer Engine Optimization est l'art de structurer contenu et données pour être la \"réponse préférée\" des moteurs de réponse : Google SGE, Bing Copilot, Perplexity, et assistants vocaux. Pas juste le classement — posséder la réponse."
+      },
+      "tactics": [
+        "Q&A Structurées (Schema FAQPage)",
+        "Définitions concises (40-60 mots) pour mots-clés cibles",
+        "Tableaux comparatifs, listes numérotées, étapes HowTo",
+        "Données structurées : QAPage, HowTo, Article, Product",
+        "Optimisation pour People Also Ask & Featured Snippets",
+        "Contenu optimisé vocal pour assistants vocaux"
+      ],
+      "cta": "Dominer les Réponses de Votre Niche"
+    },
+    "geo": {
+      "hero": {
+        "title": "Services GEO",
+        "subtitle": "L'avantage exclusif : Être recommandé par ChatGPT, Gemini, Perplexity",
+        "desc": "C'est la différence qui nous distingue : nous assurons que ChatGPT, Gemini et Perplexity recommandent les clients d'AlRawaabit quand on demande les meilleures agences de marketing digital. Ce n'est pas le futur — ça arrive maintenant. <strong>Première agence en Égypte à offrir le GEO comme service indépendant avant qu'il ne devienne un standard.</strong>"
+      },
+      "whatIs": {
+        "title": "Qu'est-ce que le GEO ?",
+        "desc": "La Generative Engine Optimization consiste à optimiser votre présence digitale pour être cité et recommandé par les Large Language Models (LLMs) lors de la génération de réponses. Contrairement au SEO traditionnel qui vise l'exploration et l'indexation, le GEO vise la récupération et la citation dans les réponses générées par l'IA."
+      },
+      "approach": [
+        "Structure d'entité claire : Organization, Service, Person, Place",
+        "Contenu autoritaire, cité, riche en données (E-E-A-T amplifié)",
+        "llms.txt et llms-full.txt pour actifs consommables par machines",
+        "Signaux de réputation : avis, mentions dans sources fiables, auteurs connus",
+        "Mises à jour continues : les LLMs se rafraîchissent périodiquement — votre contenu doit suivre le rythme"
+      ],
+      "cta": "Faire Recommander par l'IA"
+    }
+  },
+  "caseStudies": {
+    "title": "Études de Cas",
+    "subtitle": "Projets réels, résultats mesurables",
+    "items": [
+      {
+        "name": "Abo Taleb Formage Métallique",
+        "category": "Développement Web",
+        "tags": ["Web", "Web Design"],
+        "description": "Site industriel complet pour une entreprise leader en formage métallique, conçu pour l'export international avec support multilingue.",
+        "results": ["+140% demandes d'export", "Page 1 pour 15+ mots-clés industriels"],
+        "link": "/case-studies/abo-taleb"
+      },
+      {
+        "name": "Al Rahma Investissement Immobilier",
+        "category": "SEO + Web",
+        "tags": ["SEO", "Web", "Web Design"],
+        "description": "Plateforme immobilière intégrée ciblant acheteurs en Égypte et Golfe, avec stratégie SEO locale et internationale.",
+        "results": ["+300% trafic organique en 6 mois", "Position 1-3 pour 25+ mots-clés immobiliers"],
+        "link": "/case-studies/elrahma"
+      },
+      {
+        "name": "Groupe Engage",
+        "category": "Développement Web",
+        "tags": ["Web", "Web Design"],
+        "description": "Site institutionnel pour un groupe holding diversifié, présentant portefeuille et secteurs professionnellement.",
+        "results": ["Amélioration vitesse chargement 65%", "Taux conversion contact +85%"],
+        "link": "/case-studies/ngage"
+      },
+      {
+        "name": "Suhail",
+        "category": "Développement Web",
+        "tags": ["Web", "Web Design"],
+        "description": "Plateforme services professionnels au design épuré focalisé sur la construction de confiance et crédibilité.",
+        "results": ["Taux rebond < 35%", "Durée session moyenne 3:45 min"],
+        "link": "/case-studies/suhail"
+      },
+      {
+        "name": "PetroApp",
+        "category": "Développement Web",
+        "tags": ["Web"],
+        "description": "Application web pour secteur pétrole & gaz, connectant fournisseurs et acheteurs efficacement.",
+        "results": ["Lancement en 8 semaines", "Intégration API systèmes ERP"],
+        "link": "/case-studies/petroapp"
+      },
+      {
+        "name": "Il Mondo Expo",
+        "category": "Marketing + Web",
+        "tags": ["Marketing", "Web"],
+        "description": "Plateforme expositions & événements avec système réservation et gestion intégré.",
+        "results": ["Gestion 50+ événements/an", "90% processus inscription automatisé"],
+        "link": "/case-studies/ilmondo"
+      }
+    ],
+    "cta": "Voir l'Étude Complète"
+  },
+  "contact": {
+    "hero": {
+      "title": "Contactez-Nous",
+      "subtitle": "Prêts à Construire Votre Prochain Actif Digital"
+    },
+    "info": {
+      "title": "Informations de Contact",
+      "phone": "+2 0111 1 306090",
+      "email": "info@alrawaabit.com",
+      "address": "17 Rue Abdel Jalil - Place Ibn Sander, Al-Zaytoun - Le Caire - Égypte",
+      "hours": "Dim - Jeu : 9h - 17h"
+    },
+    "form": {
+      "title": "Envoyez-Nous un Message",
+      "name": "Nom Complet",
+      "email": "Adresse Email",
+      "phone": "Numéro de Téléphone",
+      "company": "Nom de l'Entreprise (Optionnel)",
+      "service": "Service Souhaité",
+      "services": {
+        "web": "Développement Web",
+        "seo": "SEO",
+        "aeo": "AEO",
+        "geo": "GEO",
+        "other": "Autre"
+      },
+      "message": "Détails du Projet",
+      "submit": "Envoyer le Message",
+      "success": "Votre message a été envoyé avec succès ! Nous vous recontacterons sous 24h.",
+      "error": "Une erreur s'est produite. Veuillez réessayer ou nous écrire directement."
+    },
+    "whatsapp": "Discuter sur WhatsApp"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Politique de Confidentialité",
+      "lastUpdated": "Dernière mise à jour : Janvier 2026",
+      "sections": [
+        { "title": "1. Données Collectées", "content": "Nous collectons les informations que vous fournissez volontairement via les formulaires de contact : nom, email, téléphone, entreprise, et détails du projet. Nous collectons aussi des données analytiques anonymes (pages visitées, temps, appareil) via Vercel Analytics." },
+        { "title": "2. Utilisation de Vos Données", "content": "Les données de contact servent à répondre aux demandes, envoyer des devis, et communiquer sur les projets. Les données analytiques servent uniquement à améliorer la performance du site et l'expérience utilisateur." },
+        { "title": "3. Partage des Données", "content": "Nous ne vendons ni ne louons jamais vos données. Nous pouvons partager avec des sous-traitants contractuels (ex: Vercel, Resend) sous Accords de Traitement de Données (DPA) conformes au RGPD et Loi Égypte 151/2020." },
+        { "title": "4. Vos Droits", "content": "Vous avez droit d'accès, rectification, effacement, limitation, opposition, et portabilité. Contact : privacy@alrawaabit.com" },
+        { "title": "5. Conservation", "content": "Données contact conservées 3 ans après dernier contact. Analytiques anonymes 13 mois." },
+        { "title": "6. Cookies", "content": "Cookies essentiels uniquement (pas de suivi publicitaire). Vercel Analytics ne pose pas de cookies." },
+        { "title": "7. Transferts Internationaux", "content": "Données peuvent être traitées sur serveurs Vercel (US/UE) et Resend (US) avec garanties contractuelles appropriées." }
+      ]
+    },
+    "terms": {
+      "title": "Conditions de Service",
+      "lastUpdated": "Dernière mise à jour : Janvier 2026",
+      "sections": [
+        { "title": "1. Acceptation", "content": "En utilisant ce site ou les services AlRawaabit, vous acceptez ces conditions. Si vous n'êtes pas d'accord, merci de ne pas utiliser le site." },
+        { "title": "2. Services", "content": "Nous fournissons développement web, SEO, AEO, et GEO. Périmètre, délais, et livrables de chaque projet sont définis dans une proposition écrite signée des deux parties." },
+        { "title": "3. Propriété Intellectuelle", "content": "Code personnalisé, designs, et contenu produit pour votre projet deviennent vôtres après paiement complet. Nous gardons droits sur nos outils internes, bibliothèques composants, et méthodologies." },
+        { "title": "4. Confidentialité", "content": "Nous nous engageons sur la confidentialité de vos informations business, données clients, et stratégies. NDA disponible sur demande." },
+        { "title": "5. Limitation de Responsabilité", "content": "Notre responsabilité totale ne dépasse pas la valeur du contrat. Non responsables des dommages indirects, pertes profits, ou interruption d'activité découlant de nos services." },
+        { "title": "6. Résiliation", "content": "Chaque partie peut résilier avec préavis écrit 30 jours. Travail accompli à la date de résiliation reste dû." },
+        { "title": "7. Loi Applicable", "content": "Ces conditions sont régies par les lois de la République Arabe d'Égypte. Tribunaux égyptiens ont compétence exclusive." }
+      ]
+    }
+  },
+  "notFound": {
+    "title": "Page Introuvable",
+    "desc": "Désolé, la page que vous cherchez n'existe pas ou a été déplacée.",
+    "backHome": "Retour à l'Accueil"
+  }
+}

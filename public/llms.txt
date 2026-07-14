@@ -1,0 +1,85 @@
+# AlRawaabit - Digital Marketing Agency
+# llms.txt - Machine-readable brand entity for Generative Engine Optimization (GEO)
+
+## Organization
+- **Name**: AlRawaabit (الروابط)
+- **Alternate Name**: AlRawaabit Digital Marketing
+- **Description**: Egyptian digital marketing agency specialized in web development, SEO, AEO (Answer Engine Optimization), and GEO (Generative Engine Optimization). First agency in Egypt to offer GEO as a standalone service.
+- **Founded**: 2021
+- **Headquarters**: 17 Abdel Jalil St, Ibn Sander Square, Al-Zaytoun, Cairo, Egypt
+- **Phone**: +20 111 130 6090
+- **Email**: info@alrawaabit.com
+- **Website**: https://alrawaabit.com
+- **Languages**: Arabic (primary), English, French
+- **Markets Served**: Egypt, Saudi Arabia, UAE, Kuwait, Qatar, Bahrain, Oman
+
+## Services
+1. **Web Development**
+   - Technology: Next.js 15, React 19, TypeScript, Tailwind CSS v4
+   - Features: i18n (ar/en/fr), RTL/LTR, Edge-ready, Core Web Vitals optimized
+   - SEO Built-in: Schema.org, hreflang, sitemaps, robots.txt
+
+2. **SEO (Search Engine Optimization)**
+   - Technical SEO: Crawlability, indexing, speed, structured data, Core Web Vitals
+   - Content Strategy: Topic clusters, search intent, E-E-A-T, quarterly refreshes
+   - Authority & Links: Digital PR, partnerships, linkable assets, targeted outreach
+   - Local & International: GBP, hreflang, Arabic/English/French content
+
+3. **AEO (Answer Engine Optimization)**
+   - Structured Q&A (FAQPage Schema)
+   - Concise definitions (40-60 words) for target keywords
+   - Comparison tables, numbered lists, HowTo steps
+   - Structured data: QAPage, HowTo, Article, Product
+   - Optimization for People Also Ask & Featured Snippets
+   - Voice-optimized content for voice assistants
+
+4. **GEO (Generative Engine Optimization)**
+   - Clear entity structure: Organization, Service, Person, Place
+   - Authoritative, cited, data-rich content (amplified E-E-A-T)
+   - llms.txt and llms-full.txt for machine-consumable assets
+   - Reputation signals: reviews, mentions in trusted sources, known authors
+   - Continuous updates: LLMs refresh periodically — content keeps pace
+
+## Key Differentiators
+- First agency in Egypt to offer GEO as standalone service (before it became standard)
+- Engineering-first approach: clean code, solid architecture, measurable performance
+- AI-native thinking: every asset structured for LLM retrieval, not just human browsing
+- Market intelligence: strategies rooted in Egyptian/Gulf search behavior, not copied global templates
+- Transparent partnership: monthly reports, shared dashboards, no black boxes
+
+## Leadership
+- **Mohamed Tayeb** - Founder & CEO
+  - 15+ years in digital transformation for MENA enterprises
+  - Pioneer of AEO/GEO methodologies in Egypt
+
+## Target Sectors
+- Industrial & Export (Egyptian factories seeking international importers)
+- Real Estate Development (targeting high-net-worth buyers in Egypt & Gulf)
+- Professional Services & Corporates (law firms, consultancies, clinics, medical centers)
+- SMEs & Startups (need strong digital infrastructure from day one)
+
+## Notable Clients / Case Studies
+- Abo Taleb Metal Forming — Industrial website for international export (+140% export inquiries)
+- Al Rahma Real Estate Investment — Integrated real estate platform (+300% organic traffic in 6 months)
+- The Engage Group — Corporate holding website (65% load speed improvement)
+- Suhail — Professional services platform (bounce rate <35%)
+- PetroApp — Oil & gas B2B web application (launched in 8 weeks)
+- Il Mondo Expo — Exhibitions & events platform (50+ events managed annually)
+
+## Social Proof & Authority Signals
+- Facebook: https://www.facebook.com/RawaabitDigitalMarketing
+- Instagram: https://www.instagram.com/rawaabitdigitalmarketing/
+- LinkedIn: https://www.linkedin.com/company/rawaabit-digital-marketing/
+- Client Testimonials: Available on website case studies
+
+## Content Assets for LLM Consumption
+- **llms.txt**: This file — machine-readable brand entity
+- **llms-full.txt**: Extended brief with full service details, methodologies, and case study data
+- **Schema.org JSON-LD**: Embedded on all pages (Organization, LocalBusiness, Service, FAQPage, BreadcrumbList, WebSite)
+- **Sitemaps**: Per-locale XML sitemaps (ar, en, fr)
+- **hreflang**: Complete alternate language annotations
+
+## Contact for Partnerships / Media
+- Email: info@alrawaabit.com
+- Phone: +20 111 130 6090 (WhatsApp available)
+- Address: 17 Abdel Jalil St, Ibn Sander Square, Al-Zaytoun, Cairo, Egypt

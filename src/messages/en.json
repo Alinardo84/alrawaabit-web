@@ -1,0 +1,431 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Our Services",
+    "webDevelopment": "Web Development",
+    "seo": "SEO Services",
+    "aeo": "AEO Services",
+    "geo": "GEO Services",
+    "caseStudies": "Case Studies",
+    "mediaCenter": "Media Center",
+    "blog": "Blog",
+    "techTips": "Tech Tips",
+    "businessSegments": "Business Segments",
+    "contact": "Contact Us",
+    "getInTouch": "Get in Touch",
+    "search": "Search"
+  },
+  "common": {
+    "loading": "Loading...",
+    "readMore": "Read More",
+    "viewMore": "View More",
+    "sendMessage": "Send Message",
+    "submit": "Submit",
+    "success": "Success!",
+    "error": "An error occurred",
+    "required": "Required field",
+    "emailInvalid": "Invalid email address",
+    "phoneInvalid": "Invalid phone number",
+    "nameRequired": "Name is required",
+    "messageRequired": "Message is required",
+    "backToHome": "Back to Home",
+    "lastUpdated": "Last updated",
+    "language": "Language"
+  },
+  "home": {
+    "hero": {
+      "badge": "First Digital Marketing Agency in Egypt Specialized in AEO & GEO",
+      "title": "Your Website Doesn't Sell?",
+      "subtitle": "At AlRawaabit, we build <strong>digital infrastructure</strong> for ambitious companies in <strong>Egypt and the Gulf</strong> — from web development and SEO, to appearing in AI answers (AEO/GEO), <strong>to turn your visitors into true success partners.</strong>",
+      "ctaPrimary": "Analyze My Site Free",
+      "ctaSecondary": "Book a Strategy Call",
+      "stats": {
+        "countries": "Countries in the Region",
+        "projects": "Projects Developed",
+        "experience": "Years of Real Experience",
+        "clients": "Trusted Clients"
+      }
+    },
+    "about": {
+      "title": "AlRawaabit",
+      "subtitle": "Your Strategic Partner in Digital Asset Engineering.",
+      "description": "\"AlRawaabit\" is not just a <strong>web development agency</strong>; we are an institution specialized in building <strong>digital infrastructure</strong> for ambitious companies. We understand that the Egyptian and Gulf markets don't need more \"beautiful websites\" — they need technological tools that serve profitability goals. We combine <strong>programming power (Web Development)</strong> with <strong>data intelligence (GEO/SEO)</strong> to give you a <strong>sustainable competitive advantage</strong>, away from the noise of temporary ads.",
+      "cta": "More About AlRawaabit"
+    },
+    "problems": {
+      "title": "Does Your Website Suffer From These Problems?",
+      "items": [
+        {
+          "title": "Visitors Without Conversions",
+          "desc": "Your site gets visitors but they don't convert to customers"
+        },
+        {
+          "title": "Absent from Page One",
+          "desc": "You don't appear on Google's first page when searching for your services"
+        },
+        {
+          "title": "Invisible to AI",
+          "desc": "Your competitors are mentioned in ChatGPT and Google SGE answers — you're absent"
+        }
+      ],
+      "truth": "The Truth No One Tells You:",
+      "truthDesc": "94% of internet users never go past page one. And now, AI is becoming the first intermediary between the customer and your service — before Google itself."
+    },
+    "pillars": {
+      "title": "An Integrated System of 4 Pillars for True Digital Dominance",
+      "items": [
+        {
+          "title": "Web Development",
+          "desc": "Sites not built just for beauty — built to sell. We design every page based on buyer psychology and UX engineering, with solid technical architecture ensuring load speed and easy indexing from day one. <strong>Most Requested Service</strong> — we integrate design, development, and SEO in one cohesive project.",
+          "link": "Web Development"
+        },
+        {
+          "title": "Answer Engine Optimization (AEO)",
+          "desc": "When your customer asks Google about your service, your name appears in the first box — before they click any link. We prepare your site content to precisely answer your customers' real questions, winning Featured Snippets and People Also Ask.",
+          "link": "AEO Services"
+        },
+        {
+          "title": "Search Engine Optimization (SEO)",
+          "desc": "Sustainable ranking on Google that brings qualified customers — no paid ads, no luck. We build a custom SEO strategy for the Egyptian and Gulf markets, targeting the keywords your actual customer searches at the moment of purchase decision.",
+          "link": "SEO Services"
+        },
+        {
+          "title": "Exclusive Advantage: Generative Engine Optimization (GEO)",
+          "desc": "This is the difference that sets us apart: we ensure ChatGPT, Gemini, and Perplexity recommend AlRawaabit's clients when asked about the best digital marketing agencies. This isn't the future — this is happening now. <strong>First agency in Egypt to offer GEO as a standalone service before it became a standard.</strong>",
+          "link": "GEO Services"
+        }
+      ]
+    },
+    "process": {
+      "title": "How We Turn Your Website Into a Sales Machine in 3 Stages",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Diagnosis & Analysis",
+          "desc": "We start with a comprehensive analysis of your current digital state: site performance, keywords, competitors, and content gaps. We don't start execution before we fully understand your market."
+        },
+        {
+          "number": "2",
+          "title": "Build & Structure",
+          "desc": "We build the digital system based on a custom strategy: site design, content structure, Schema Markup, and technical architecture that makes Google trust your site from day one."
+        },
+        {
+          "number": "3",
+          "title": "Launch & Continuous Optimization",
+          "desc": "We launch the platform and monitor performance with transparent monthly reports. Optimization never stops — we adapt to Google updates and AI evolutions to ensure your continued dominance."
+        }
+      ]
+    },
+    "sectors": {
+      "title": "We Design Our Systems to Serve Sectors That Seek Quality",
+      "items": [
+        {
+          "title": "Industrial & Export",
+          "desc": "Egyptian factories seeking international importers — we build their digital presence in English and Arabic together."
+        },
+        {
+          "title": "Real Estate Development",
+          "desc": "Real estate developers targeting high-net-worth buyers in Egypt and the Gulf."
+        },
+        {
+          "title": "Professional Services & Corporates",
+          "desc": "Law firms, consultancies, clinics and medical centers — sectors that rely on digital trust and credibility."
+        },
+        {
+          "title": "SMEs & Startups",
+          "desc": "SMEs and Startups need strong digital infrastructure from day one to shortcut years of growth."
+        }
+      ]
+    },
+    "partners": {
+      "title": "Proud to Be the Technical & Strategic Partner for Elite Ambitious Brands",
+      "subtitle": "Success Partners Who Trusted Our Vision"
+    },
+    "cta": {
+      "title": "Book a Strategy Call",
+      "subtitle": "Don't leave your market position to chance. Your competitors have already started using modern technologies. Are you ready to race them? Let us give you a comprehensive analysis of your current digital state for free.",
+      "primary": "Get GEO/SEO Analysis Now",
+      "secondary": "Book a Call"
+    },
+    "blog": {
+      "title": "Latest News",
+      "viewAll": "View All"
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "items": [
+        {
+          "quote": "Design is a way of life, a point of view. It involves the whole complex of visual communications: talent, creative ability and technical knowledge.",
+          "author": "Mohamed Tayeb",
+          "role": "Chairman, El Mundo Company"
+        },
+        {
+          "quote": "Design is a way of life, a point of view. It involves the whole complex of visual communications: talent, creative ability and technical knowledge.",
+          "author": "Silviia Garden",
+          "role": "Customer"
+        },
+        {
+          "quote": "Design is a way of life, a point of view. It involves the whole complex of visual communications: talent, creative ability and technical knowledge.",
+          "author": "Tommy Dents",
+          "role": "Customer"
+        }
+      ]
+    },
+    "faq": {
+      "title": "What's the difference between SEO, AEO, and GEO?",
+      "items": [
+        {
+          "q": "What's the difference between SEO, AEO, and GEO?",
+          "a": "SEO ensures you appear in traditional Google results. AEO ensures you appear in Featured Snippets and Google's direct answers. GEO ensures AI systems like ChatGPT and Gemini recommend you when asked about your services. All three together give you comprehensive digital dominance."
+        },
+        {
+          "q": "How long does it take to reach page one on Google?",
+          "a": "In medium-competition fields in the Egyptian market, we start seeing tangible results between 60-90 days, and true dominance is achieved between 4-6 months with consistency and sustainability — unlike ads that stop the moment the budget ends."
+        },
+        {
+          "q": "Do you work with small or large companies only?",
+          "a": "We work with both, but our true specialization is startups and SMEs that want to build a strong digital system from the beginning, and large companies that want to develop their current presence and enter the AI era."
+        },
+        {
+          "q": "Can I develop my website only without SEO services?",
+          "a": "Yes, but we wouldn't recommend it. A website without integrated SEO from the start is like building a shop on a closed street. We always integrate both because the total cost is lower and the result is more sustainable."
+        },
+        {
+          "q": "What markets do you serve?",
+          "a": "We're headquartered in Cairo, Egypt — and serve clients in Saudi Arabia, UAE, Kuwait, Qatar, Bahrain, and Oman. Our expertise in the Egyptian market spans over 2 years, and our Gulf presence is growing steadily."
+        }
+      ]
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About AlRawaabit",
+      "subtitle": "Building digital infrastructure since 2021"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To equip ambitious Egyptian and Gulf companies with digital infrastructure that converts visitors into partners — combining engineering rigor with AI-era visibility."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "To be the region's default partner for companies that refuse to choose between beautiful design and business results."
+    },
+    "values": [
+      { "title": "Engineering First", "desc": "Clean code, solid architecture, measurable performance — before aesthetics." },
+      { "title": "AI-Native Thinking", "desc": "Every asset we build is structured for LLM retrieval, not just human browsing." },
+      { "title": "Market Intelligence", "desc": "Strategies rooted in Egyptian/Gulf search behavior, not copied global templates." },
+      { "title": "Transparent Partnership", "desc": "Monthly reports, shared dashboards, no black boxes. You own the data." }
+    ],
+    "team": {
+      "title": "Leadership",
+      "members": [
+        { "name": "Mohamed Tayeb", "role": "Founder & CEO", "bio": "15+ years in digital transformation for MENA enterprises. Pioneer of AEO/GEO methodologies in Egypt." }
+      ]
+    }
+  },
+  "services": {
+    "webDevelopment": {
+      "hero": {
+        "title": "Web Development",
+        "subtitle": "Sites built to sell, not just to look good",
+        "desc": "We design every page based on buyer psychology and UX engineering, with solid technical architecture ensuring load speed and easy indexing from day one. <strong>Most Requested Service</strong> — we integrate design, development, and SEO in one cohesive project."
+      },
+      "pillars": [
+        { "title": "Strategic Design", "desc": "Conversion-centered UX, mobile-first, accessibility (WCAG 2.2 AA)" },
+        { "title": "Modern Stack", "desc": "Next.js 15, React 19, TypeScript, Tailwind v4, Edge-ready" },
+        { "title": "SEO-Built-In", "desc": "Technical SEO, Schema, Core Web Vitals, hreflang from day zero" },
+        { "title": "Performance", "desc": "Lighthouse 90+, Edge caching, Image optimization, ISR" }
+      ],
+      "process": [
+        "Discovery & Strategy",
+        "IA & Wireframes",
+        "Design System & UI",
+        "Development & QA",
+        "Launch & Monitoring"
+      ],
+      "cta": "Start Your Web Project"
+    },
+    "seo": {
+      "hero": {
+        "title": "SEO Services",
+        "subtitle": "Sustainable rankings that bring qualified buyers",
+        "desc": "No paid ads, no luck. We build a custom SEO strategy for the Egyptian and Gulf markets, targeting the keywords your actual customer searches at the moment of purchase decision."
+      },
+      "pillars": [
+        { "title": "Technical SEO", "desc": "Crawlability, indexing, speed, structured data, Core Web Vitals" },
+        { "title": "Content Strategy", "desc": "Topic clusters, search intent, E-E-A-T, quarterly refreshes" },
+        { "title": "Authority & Links", "desc": "Digital PR, partnerships, linkable assets, targeted outreach" },
+        { "title": "Local & International", "desc": "GBP, hreflang, Arabic/English/French content" }
+      ],
+      "deliverables": [
+        "Comprehensive technical audit (200+ points)",
+        "Keyword map clustered by intent",
+        "Quarterly content calendar",
+        "Monthly ranking report + competitor analysis",
+        "Continuous data-driven optimization"
+      ],
+      "cta": "Request Free SEO Audit"
+    },
+    "aeo": {
+      "hero": {
+        "title": "AEO Services",
+        "subtitle": "Be the first answer — before any link",
+        "desc": "When your customer asks Google about your service, your name appears in the first box — before they click any link. We prepare your site content to precisely answer your customers' real questions, winning Featured Snippets and People Also Ask."
+      },
+      "whatIs": {
+        "title": "What is AEO?",
+        "desc": "Answer Engine Optimization is the art of structuring content and data to be the \"preferred answer\" for answer engines: Google SGE, Bing Copilot, Perplexity, and voice assistants. Not just ranking — owning the answer."
+      },
+      "tactics": [
+        "Structured Q&A (FAQPage Schema)",
+        "Concise definitions (40-60 words) for target keywords",
+        "Comparison tables, numbered lists, HowTo steps",
+        "Structured data: QAPage, HowTo, Article, Product",
+        "Optimization for People Also Ask & Featured Snippets",
+        "Voice-optimized content for voice assistants"
+      ],
+      "cta": "Dominate Your Niche's Answers"
+    },
+    "geo": {
+      "hero": {
+        "title": "GEO Services",
+        "subtitle": "The exclusive advantage: Be recommended by ChatGPT, Gemini, Perplexity",
+        "desc": "This is the difference that sets us apart: we ensure ChatGPT, Gemini, and Perplexity recommend AlRawaabit's clients when asked about the best digital marketing agencies. This isn't the future — this is happening now. <strong>First agency in Egypt to offer GEO as a standalone service before it became a standard.</strong>"
+      },
+      "whatIs": {
+        "title": "What is GEO?",
+        "desc": "Generative Engine Optimization is optimizing your digital presence to be cited and recommended by Large Language Models (LLMs) when generating answers. Unlike traditional SEO targeting crawl and index, GEO targets retrieval and citation in AI-generated answers."
+      },
+      "approach": [
+        "Clear entity structure: Organization, Service, Person, Place",
+        "Authoritative, cited, data-rich content (amplified E-E-A-T)",
+        "llms.txt and llms-full.txt for machine-consumable assets",
+        "Reputation signals: reviews, mentions in trusted sources, known authors",
+        "Continuous updates: LLMs refresh periodically — your content must keep pace"
+      ],
+      "cta": "Make AI Recommend You"
+    }
+  },
+  "caseStudies": {
+    "title": "Case Studies",
+    "subtitle": "Real projects, measurable results",
+    "items": [
+      {
+        "name": "Abo Taleb Metal Forming",
+        "category": "Web Development",
+        "tags": ["Web", "Web Design"],
+        "description": "Complete industrial website for a leading metal forming company, designed for international export with multi-language support.",
+        "results": ["+140% export inquiries", "Page 1 for 15+ industrial keywords"],
+        "link": "/case-studies/abo-taleb"
+      },
+      {
+        "name": "Al Rahma Real Estate Investment",
+        "category": "SEO + Web",
+        "tags": ["SEO", "Web", "Web Design"],
+        "description": "Integrated real estate platform targeting buyers in Egypt and the Gulf, with local and international SEO strategy.",
+        "results": ["+300% organic traffic in 6 months", "Position 1-3 for 25+ real estate keywords"],
+        "link": "/case-studies/elrahma"
+      },
+      {
+        "name": "The Engage Group",
+        "category": "Web Development",
+        "tags": ["Web", "Web Design"],
+        "description": "Corporate website for a diversified holding group, showcasing portfolio and sectors professionally.",
+        "results": ["65% load speed improvement", "Contact conversion rate +85%"],
+        "link": "/case-studies/ngage"
+      },
+      {
+        "name": "Suhail",
+        "category": "Web Development",
+        "tags": ["Web", "Web Design"],
+        "description": "Professional services platform with clean design focused on building trust and credibility.",
+        "results": ["Bounce rate < 35%", "Avg session duration 3:45 min"],
+        "link": "/case-studies/suhail"
+      },
+      {
+        "name": "PetroApp",
+        "category": "Web Development",
+        "tags": ["Web"],
+        "description": "Web application for oil & gas sector, connecting suppliers with buyers efficiently.",
+        "results": ["Launched in 8 weeks", "ERP API integration"],
+        "link": "/case-studies/petroapp"
+      },
+      {
+        "name": "Il Mondo Expo",
+        "category": "Marketing + Web",
+        "tags": ["Marketing", "Web"],
+        "description": "Exhibitions & events platform with integrated booking and management system.",
+        "results": ["Managing 50+ events annually", "90% registration process automated"],
+        "link": "/case-studies/ilmondo"
+      }
+    ],
+    "cta": "View Full Case Study"
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Ready to build your next digital asset"
+    },
+    "info": {
+      "title": "Contact Information",
+      "phone": "+2 0111 1 306090",
+      "email": "info@alrawaabit.com",
+      "address": "17 Abdel Jalil St - Ibn Sander Square, Al-Zaytoun - Cairo - Egypt",
+      "hours": "Sun - Thu: 9 AM - 5 PM"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "company": "Company Name (Optional)",
+      "service": "Service Needed",
+      "services": {
+        "web": "Web Development",
+        "seo": "SEO",
+        "aeo": "AEO",
+        "geo": "GEO",
+        "other": "Other"
+      },
+      "message": "Project Details",
+      "submit": "Send Message",
+      "success": "Your message has been sent successfully! We'll get back to you within 24 hours.",
+      "error": "Something went wrong. Please try again or email us directly."
+    },
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: January 2026",
+      "sections": [
+        { "title": "1. Data We Collect", "content": "We collect information you voluntarily provide via contact forms: name, email, phone, company, and project details. We also collect anonymous analytical data (pages visited, time, device) via Vercel Analytics." },
+        { "title": "2. How We Use Your Data", "content": "Contact data is used to respond to inquiries, send quotes, and communicate about projects. Analytical data is used solely to improve site performance and user experience." },
+        { "title": "3. Data Sharing", "content": "We never sell or rent your data. We may share data with contracted processors (e.g., Vercel, Resend) under Data Processing Agreements (DPA) compliant with GDPR and Egypt Law 151/2020." },
+        { "title": "4. Your Rights", "content": "You have the right to access, rectify, erase, restrict, object to, and port your data. Contact: privacy@alrawaabit.com" },
+        { "title": "5. Data Retention", "content": "Contact data retained for 3 years from last contact. Anonymous analytics retained for 13 months." },
+        { "title": "6. Cookies", "content": "We use essential cookies only (no advertising tracking). Vercel Analytics sets no cookies." },
+        { "title": "7. International Transfers", "content": "Data may be processed on Vercel servers (US/EU) and Resend (US) with appropriate contractual safeguards." }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last updated: January 2026",
+      "sections": [
+        { "title": "1. Acceptance", "content": "By using this website or AlRawaabit's services, you agree to these terms. If you disagree, please do not use the site." },
+        { "title": "2. Services", "content": "We provide web development, SEO, AEO, and GEO services. Scope, timeline, and deliverables for each project are defined in a written, signed proposal." },
+        { "title": "3. Intellectual Property", "content": "Custom code, designs, and content produced for your project become yours upon full payment. We retain rights to our internal tools, component libraries, and methodologies." },
+        { "title": "4. Confidentiality", "content": "We commit to the confidentiality of your business information, client data, and strategies. NDA available upon request." },
+        { "title": "5. Limitation of Liability", "content": "Our total liability shall not exceed the contract value. We are not liable for indirect damages, lost profits, or business interruption arising from our services." },
+        { "title": "6. Termination", "content": "Either party may terminate with 30 days written notice. Work completed to termination date is due for payment." },
+        { "title": "7. Governing Law", "content": "These terms are governed by the laws of the Arab Republic of Egypt. Egyptian courts have exclusive jurisdiction." }
+      ]
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "desc": "Sorry, the page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home"
+  }
+}
