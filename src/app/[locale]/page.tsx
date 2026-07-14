@@ -211,7 +211,17 @@ export default async function HomePage({ params }: HomePageProps) {
   return (
     <div className="min-h-screen" dir={dir}>
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-navy-950 via-navy-900 to-navy-950 text-white pt-16 lg:pt-20 pb-20 lg:pb-28">
+      <section className="relative overflow-hidden bg-navy-950 text-white pt-16 lg:pt-20 pb-20 lg:pb-28">
+        {/* Background image */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="/media/hero-banner.png"
+            alt=""
+            className="w-full h-full object-cover opacity-30"
+            aria-hidden="true"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-navy-950/80 via-navy-950/70 to-navy-950" />
+        </div>
         <div className="container mx-auto px-4 relative z-10">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-600/20 border border-orange-600/30 text-orange-300 text-sm font-medium mb-8 animate-fade-in">
@@ -315,7 +325,15 @@ export default async function HomePage({ params }: HomePageProps) {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service) => (
               <Link key={service.key} href={t(service.href)} className="block">
-                <Card hover padding="lg" className="h-full transition-all duration-300 group border-navy-100">
+                <Card hover padding="lg" className="h-full transition-all duration-300 group border-navy-100 overflow-hidden">
+                  <div className="aspect-video bg-navy-100 rounded-xl mb-4 overflow-hidden">
+                    <img
+                      src={`/media/service-${service.key === 'web-development' ? 'web-dev' : service.key === 'seo' ? 'seo' : service.key === 'aeo' ? 'aeo' : 'geo'}.png`}
+                      alt={t(service.title)}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                  </div>
                   <div className="w-14 h-14 rounded-2xl bg-orange-100 flex items-center justify-center text-orange-600 mb-4 group-hover:scale-110 transition-transform">
                     <service.icon className="w-7 h-7" aria-hidden="true" />
                   </div>
