@@ -197,7 +197,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
       title: titles[currentLocale],
       description: descriptions[currentLocale],
       type: 'website',
-      images: [`/media/og-${currentLocale}.svg`],
+      images: [`/media/og-${currentLocale}.png`],
     },
   };
 }

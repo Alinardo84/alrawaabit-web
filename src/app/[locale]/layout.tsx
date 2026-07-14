@@ -80,7 +80,7 @@ export async function generateMetadata({ params }: { params: LocaleParams }): Pr
       description: descriptions[locale],
       images: [
         {
-          url: `${baseUrl}/media/og-${locale}.svg`,
+          url: `${baseUrl}/media/og-${locale}.png`,
           width: 1200,
           height: 630,
           alt: siteName,
@@ -91,7 +91,7 @@ export async function generateMetadata({ params }: { params: LocaleParams }): Pr
       card: 'summary_large_image',
       title: siteName,
       description: descriptions[locale],
-      images: [`${baseUrl}/media/og-${locale}.svg`],
+      images: [`${baseUrl}/media/og-${locale}.png`],
       creator: '@rawaabit',
     },
     alternates: {
