@@ -1,10 +1,9 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowRight, CheckCircle, Users, Globe, Award, Clock, Shield, Sparkles, Zap, Target, Brain, Network, TrendingUp } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
+import { ArrowRight, Users, Globe, Zap, Target, Brain, Network } from 'lucide-react';
+import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
-import { cn } from '@/lib/utils';
-import { type Locale, localeNames, locales, localeDirs } from '@/lib/i18n';
+import { type Locale, locales, localeDirs } from '@/lib/i18n';
 
 interface HomePageProps {
   params: Promise<{ locale: Locale }>;
@@ -314,7 +313,7 @@ export default async function HomePage({ params }: HomePageProps) {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {services.map((service, i) => (
+            {services.map((service) => (
               <Link key={service.key} href={t(service.href)} className="block">
                 <Card hover padding="lg" className="h-full transition-all duration-300 group border-navy-100">
                   <div className="w-14 h-14 rounded-2xl bg-orange-100 flex items-center justify-center text-orange-600 mb-4 group-hover:scale-110 transition-transform">

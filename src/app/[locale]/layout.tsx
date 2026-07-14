@@ -1,9 +1,8 @@
 import { Inter, Noto_Sans_Arabic } from 'next/font/google';
-import Link from 'next/link';
 import { Metadata } from 'next';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
-import { locales, defaultLocale, type Locale, localeNames, localeDirs, localeFlags } from '@/lib/i18n';
+import { locales, defaultLocale, type Locale, localeDirs } from '@/lib/i18n';
 import { organizationJsonLd, localBusinessJsonLd, websiteJsonLd } from '@/lib/jsonld';
 
 export const dynamic = 'force-dynamic';
@@ -37,12 +36,6 @@ function getValidLocale(locale: string): Locale {
 export async function generateMetadata({ params }: { params: LocaleParams }): Promise<Metadata> {
   const { locale: rawLocale } = await params;
   const locale = getValidLocale(rawLocale);
-
-  const jsonLd = [
-    organizationJsonLd(locale),
-    localBusinessJsonLd(locale),
-    websiteJsonLd(locale),
-  ];
 
   const baseUrl = locale === 'ar' ? 'https://alrawaabit.com' : `https://alrawaabit.com/${locale}`;
 

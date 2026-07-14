@@ -1,9 +1,8 @@
 'use client';
 
-import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { cn } from '@/lib/utils';
-import { locales, defaultLocale, type Locale, localeNames, localeDirs, localeFlags } from '@/lib/i18n';
+import { locales, defaultLocale, type Locale, localeNames, localeFlags } from '@/lib/i18n';
 import { Globe } from 'lucide-react';
 
 interface LocaleSwitcherProps {

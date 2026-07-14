@@ -1,8 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Globe, Mail, Phone, MapPin, MessageSquare, ArrowRight, ExternalLink } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import { Mail, Phone, MapPin, MessageSquare, ArrowRight, ExternalLink } from 'lucide-react';
 import { type Locale, localeDirs, localeNames, localeFlags } from '@/lib/i18n';
 
 interface FooterProps {

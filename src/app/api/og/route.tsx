@@ -1,8 +1,7 @@
 import { ImageResponse } from 'next/og';
 import { NextRequest } from 'next/server';
 
-const locales = ['ar', 'en', 'fr'] as const;
-type Locale = typeof locales[number];
+type Locale = 'ar' | 'en' | 'fr';
 
 const siteName = {
   ar: 'الروابط',
@@ -21,7 +20,6 @@ export async function GET(request: NextRequest) {
   const locale = (searchParams.get('locale') as Locale) || 'ar';
   const title = searchParams.get('title') || siteName[locale];
   const description = searchParams.get('description') || descriptions[locale];
-  const type = searchParams.get('type') || 'default';
 
   const isRTL = locale === 'ar';
 

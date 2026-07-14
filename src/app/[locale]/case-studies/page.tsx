@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowRight, CheckCircle, ExternalLink } from 'lucide-react';
+import { ArrowRight, CheckCircle } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { locales, localeDirs, type Locale } from '@/lib/i18n';
@@ -187,7 +187,7 @@ export default async function CaseStudiesPage({ params }: CaseStudiesPageProps) 
       <section className="py-20 lg:py-28 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            {caseStudies.map((study, i) => (
+            {caseStudies.map((study) => (
               <Link key={study.slug} href={`/${currentLocale}/case-studies/${study.slug}`} className="block">
                 <Card hover padding="lg" className="h-full border-navy-100 transition-all duration-300 group">
                   <div className="flex flex-wrap gap-2 mb-4">

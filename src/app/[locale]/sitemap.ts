@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { locales, localeDirs } from '@/lib/i18n';
+import { locales } from '@/lib/i18n';
 
 const baseUrl = 'https://alrawaabit.com';
 

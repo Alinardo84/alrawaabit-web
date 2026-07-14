@@ -1,10 +1,10 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowRight, CheckCircle, Zap, Shield, Globe, Code, Layers, BarChart, Server, Rocket, Target, Lightbulb, Brain, Network, TrendingUp } from 'lucide-react';
+import { ArrowRight, CheckCircle, Zap, Shield, Globe, Code, Rocket, Target, Lightbulb } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { locales, localeDirs, type Locale } from '@/lib/i18n';
-import { serviceJsonLd, breadcrumbJsonLd, faqPageJsonLd } from '@/lib/jsonld';
+import { serviceJsonLd, breadcrumbJsonLd } from '@/lib/jsonld';
 
 interface ServicePageProps {
   params: Promise<{ locale: Locale; slug: string }>;
@@ -158,10 +158,6 @@ const serviceContent: Record<string, ServiceContent> = {
     ],
     cta: { ar: 'اجعل الذكاء الاصطناعي يوصي بك', en: 'Make AI Recommend You', fr: 'Faites Recommander par l\'IA' },
   },
-};
-
-const serviceIcons: Record<string, React.ComponentType<{ className?: string }>> = {
-  Code, Zap, Globe, Rocket, Shield, Lightbulb, Target, Brain, Network, TrendingUp, CheckCircle, ArrowRight
 };
 
 export const dynamic = 'force-dynamic';

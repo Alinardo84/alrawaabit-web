@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { locales, defaultLocale, type Locale } from '@/lib/i18n';
+import { locales, type Locale } from '@/lib/i18n';
 
 const dictionaries = {
   ar: () => import('@/messages/ar.json').then((module) => module.default),

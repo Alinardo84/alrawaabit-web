@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { cn } from '@/lib/utils';
 import { LocaleSwitcher } from './LocaleSwitcher';
 import { Menu, X, ChevronDown } from 'lucide-react';
-import { locales, type Locale, localeNames, localeDirs } from '@/lib/i18n';
+import { type Locale, localeDirs } from '@/lib/i18n';
 
 const navigation = [
   { name: 'home', href: '/', label: { ar: 'الرئيسية', en: 'Home', fr: 'Accueil' } },

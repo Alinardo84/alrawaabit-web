@@ -1,10 +1,10 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowRight, Target, Lightbulb, Shield, Users, Award } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
+import { ArrowRight, Target, Lightbulb, Shield, Users } from 'lucide-react';
+import { Card, CardContent } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { breadcrumbJsonLd, faqPageJsonLd } from '@/lib/jsonld';
-import { type Locale, locales, localeDirs, localeNames } from '@/lib/i18n';
+import { type Locale, locales, localeDirs } from '@/lib/i18n';
 
 interface AboutPageProps {
   params: Promise<{ locale: Locale }>;
@@ -35,7 +35,6 @@ const values = [
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }): Promise<Metadata> {
   const { locale } = await params;
   const currentLocale = locales.includes(locale) ? locale : 'ar';
-  const dir = localeDirs[currentLocale];
 
   const titles = {
     ar: 'من نحن | الروابط — شريكك الاستراتيجي في هندسة الأصول الرقمية',
