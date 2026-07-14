@@ -10,7 +10,34 @@ interface ServicePageProps {
   params: Promise<{ locale: Locale; slug: string }>;
 }
 
-const serviceContent: Record<string, any> = {
+type LocalizedString = { ar: string; en: string; fr: string };
+
+type ServiceContent = {
+  hero: {
+    title: LocalizedString;
+    subtitle?: LocalizedString;
+    desc: LocalizedString;
+  };
+  pillars?: Array<{
+    icon: React.ComponentType<{ className?: string }>;
+    title: LocalizedString;
+    desc: LocalizedString;
+  }>;
+  process?: Array<{
+    title: LocalizedString;
+    desc: LocalizedString;
+  }>;
+  deliverables?: Array<LocalizedString>;
+  whatIs?: {
+    title: LocalizedString;
+    desc: LocalizedString;
+  };
+  tactics?: Array<LocalizedString>;
+  approach?: Array<LocalizedString>;
+  cta: LocalizedString;
+};
+
+const serviceContent: Record<string, ServiceContent> = {
   'web-development': {
     hero: {
       title: { ar: 'تطوير المواقع', en: 'Web Development', fr: 'Développement Web' },
@@ -271,7 +298,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
         <section className="py-20 lg:py-28 bg-white">
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {content.pillars.map((pillar: any, i: number) => (
+              {content.pillars.map((pillar, i) => (
                 <Card key={i} hover padding="lg" className="h-full border-navy-100">
                   <CardHeader>
                     <div className="w-14 h-14 rounded-2xl bg-orange-100 flex items-center justify-center text-orange-600 mb-4">
@@ -301,7 +328,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 relative">
               <div className="hidden md:block absolute top-12 left-1/2 -translate-x-1/2 w-px h-[calc(100%-6rem)] bg-gradient-to-b from-orange-300 to-transparent" aria-hidden="true" />
-              {content.process.map((step: any, i: number) => (
+              {content.process.map((step, i) => (
                 <div key={i} className="relative z-10 text-center">
                   <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-orange-500 to-orange-600 flex items-center justify-center text-white text-2xl font-bold shadow-lg">
                     {i + 1}
@@ -326,7 +353,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
             </div>
 
             <div className="max-w-3xl mx-auto space-y-4">
-              {content.deliverables.map((deliverable: any, i: number) => (
+              {content.deliverables.map((deliverable, i) => (
                 <div key={i} className="flex items-start gap-4 p-6 bg-navy-50 rounded-2xl border border-navy-100">
                   <CheckCircle className="w-6 h-6 text-orange-500 flex-shrink-0 mt-0.5" aria-hidden="true" />
                   <span className="text-navy-700">{t(deliverable)}</span>
@@ -351,7 +378,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
 
               {(content.tactics || content.approach) && (
                 <div className="space-y-4">
-                  {(content.tactics || content.approach).map((item: any, i: number) => (
+                  {(content.tactics || content.approach || []).map((item, i) => (
                     <Card key={i} hover padding="lg" className="border-navy-100">
                       <CardContent className="flex gap-4">
                         <div className="w-10 h-10 rounded-xl bg-orange-100 flex items-center justify-center text-orange-600 flex-shrink-0">

@@ -20,8 +20,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
 
   return {
     title: titles[currentLocale],
-    robots: { index: false, follow: false } as any,
-  };
+    robots: {
+      index: false,
+      follow: false,
+    },
+  } as Metadata;
 }
 
 export default async function NotFoundPage({ params }: NotFoundPageProps) {
