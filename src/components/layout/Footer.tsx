@@ -1,8 +1,9 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname, useRouter } from 'next/navigation';
 import { Mail, Phone, MapPin, MessageSquare, ArrowRight, ExternalLink } from 'lucide-react';
-import { type Locale, localeDirs, localeNames, localeFlags } from '@/lib/i18n';
+import { type Locale, locales, localeDirs, localeNames, localeFlags } from '@/lib/i18n';
 
 interface FooterProps {
   locale: Locale;
@@ -165,20 +166,43 @@ export function Footer({ locale }: FooterProps) {
               })}
             </p>
             <div className="flex items-center gap-4">
-              <select
-                className="bg-navy-800 border border-navy-700 rounded-lg px-3 py-2 text-white text-sm appearance-none focus:outline-none focus:ring-2 focus:ring-orange-500"
-                aria-label="Language"
-              >
-                {['ar', 'en', 'fr'].map((l) => (
-                  <option key={l} value={l} selected={l === locale}>
-                    {localeFlags[l as Locale]} {localeNames[l as Locale]}
-                  </option>
-                ))}
-              </select>
+              <FooterLocaleSelect locale={locale} />
             </div>
           </div>
         </div>
       </div>
     </footer>
+  );
+}
+
+function FooterLocaleSelect({ locale }: { locale: Locale }) {
+  const pathname = usePathname();
+  const router = useRouter();
+
+  const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const newLocale = e.target.value as Locale;
+    const segments = pathname.split('/').filter(Boolean);
+    if (segments.length > 0 && locales.includes(segments[0] as Locale)) {
+      segments[0] = newLocale;
+    } else {
+      segments.unshift(newLocale);
+    }
+    router.push('/' + segments.join('/'));
+    router.refresh();
+  };
+
+  return (
+    <select
+      value={locale}
+      onChange={handleChange}
+      className="bg-navy-800 border border-navy-700 rounded-lg px-3 py-2 text-white text-sm cursor-pointer focus:outline-none focus:ring-2 focus:ring-orange-500 hover:border-orange-500 transition-colors"
+      aria-label="Language"
+    >
+      {locales.map((l) => (
+        <option key={l} value={l}>
+          {localeFlags[l]} {localeNames[l]}
+        </option>
+      ))}
+    </select>
   );
 }

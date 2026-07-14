@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ArrowRight, Users, Globe, Zap, Target, Brain, Network } from 'lucide-react';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
+import { ScrollReveal } from '@/components/ui/ScrollReveal';
 import { type Locale, locales, localeDirs } from '@/lib/i18n';
 
 interface HomePageProps {
@@ -301,13 +302,15 @@ export default async function HomePage({ params }: HomePageProps) {
 
           <div className="grid md:grid-cols-3 gap-6">
             {problems.map((problem, i) => (
-              <Card key={i} hover padding="lg" className="text-center h-full border-navy-200">
-                <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-orange-100 flex items-center justify-center text-orange-600">
-                  <problem.icon className="w-8 h-8" aria-hidden="true" />
-                </div>
-                <h3 className="text-xl font-semibold text-navy-900 mb-2">{t(problem.title)}</h3>
-                <p className="text-navy-500">{t(problem.desc)}</p>
-              </Card>
+              <ScrollReveal key={i} variant="up" delay={i * 150}>
+                <Card hover padding="lg" className="text-center h-full border-navy-200 group hover:-translate-y-2 transition-all duration-300">
+                  <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-orange-100 flex items-center justify-center text-orange-600 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+                    <problem.icon className="w-8 h-8" aria-hidden="true" />
+                  </div>
+                  <h3 className="text-xl font-semibold text-navy-900 mb-2">{t(problem.title)}</h3>
+                  <p className="text-navy-500">{t(problem.desc)}</p>
+                </Card>
+              </ScrollReveal>
             ))}
           </div>
         </div>
@@ -323,16 +326,17 @@ export default async function HomePage({ params }: HomePageProps) {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {services.map((service) => (
-              <Link key={service.key} href={t(service.href)} className="block">
-                <Card hover padding="lg" className="h-full transition-all duration-300 group border-navy-100 overflow-hidden">
-                  <div className="aspect-video bg-navy-100 rounded-xl mb-4 overflow-hidden">
-                    <img
-                      src={`/media/service-${service.key === 'web-development' ? 'web-dev' : service.key === 'seo' ? 'seo' : service.key === 'aeo' ? 'aeo' : 'geo'}.png`}
-                      alt={t(service.title)}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      loading="lazy"
-                    />
+            {services.map((service, i) => (
+              <ScrollReveal key={service.key} variant="up" delay={i * 120}>
+                <Link href={t(service.href)} className="block">
+                  <Card hover padding="lg" className="h-full transition-all duration-300 group border-navy-100 overflow-hidden hover:-translate-y-2 hover:shadow-xl">
+                    <div className="aspect-video bg-navy-100 rounded-xl mb-4 overflow-hidden">
+                      <img
+                        src={`/media/service-${service.key === 'web-development' ? 'web-dev' : service.key === 'seo' ? 'seo' : service.key === 'aeo' ? 'aeo' : 'geo'}.png`}
+                        alt={t(service.title)}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        loading="lazy"
+                      />
                   </div>
                   <div className="w-14 h-14 rounded-2xl bg-orange-100 flex items-center justify-center text-orange-600 mb-4 group-hover:scale-110 transition-transform">
                     <service.icon className="w-7 h-7" aria-hidden="true" />
@@ -350,6 +354,7 @@ export default async function HomePage({ params }: HomePageProps) {
                   </div>
                 </Card>
               </Link>
+              </ScrollReveal>
             ))}
           </div>
         </div>
