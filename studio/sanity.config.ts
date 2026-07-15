@@ -11,18 +11,24 @@
  * inside Next.js App Router.
  */
 import { defineConfig } from 'sanity';
-import { structureTool } from 'sanity/desk';
+import { structureTool } from 'sanity/structure';
 import { visionTool } from '@sanity/vision';
 import { schemaTypes } from '../src/sanity/schemas';
+
+const projectId =
+  process.env.NEXT_PUBLIC_SANITY_PROJECT_ID ||
+  process.env.SANITY_STUDIO_PROJECT_ID ||
+  'replace-me';
 
 export default defineConfig({
   name: 'alrawaabit-studio',
   title: 'AlRawaabit CMS',
-  projectId: process.env.SANITY_STUDIO_PROJECT_ID || 'replace-me',
-  dataset: 'production',
+  projectId,
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || 'production',
+  basePath: '/',
   plugins: [
     structureTool(),
-    visionTool({ mode: 'full' }),
+    visionTool(),
   ],
   schema: { types: schemaTypes },
 });

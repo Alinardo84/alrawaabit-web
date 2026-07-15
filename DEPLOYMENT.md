@@ -106,6 +106,33 @@ curl -I https://alrawaabit.com
 # Should show 200 OK with Vercel SSL
 ```
 
+### Step 2.5: Sanity Studio Deployment
+
+The Studio lives in `studio/` (deliberately separated to avoid React 19 conflicts with Next.js). Two ways to deploy:
+
+**Option A — Sanity hosted (free, recommended for solo use):**
+```bash
+cd studio
+npm install
+npx sanity init --reconfigure   # paste your project ID
+npm run deploy                  # gives you alrawaabit.sanity.studio
+```
+
+**Option B — Self-host on Vercel (separate project):**
+1. In Vercel → **Add New Project** → import `Alinardo84/alrawaabit-web`
+2. Set **Root Directory** to `studio`
+3. Vercel auto-detects Sanity, runs `sanity build`
+4. Add env var `NEXT_PUBLIC_SANITY_PROJECT_ID` (same as the main app)
+5. Note the deployed URL (e.g. `https://alrawaabit-cms.vercel.app`)
+
+Then in the **main app**'s Vercel project, add env var:
+```
+NEXT_PUBLIC_STUDIO_URL=https://alrawaabit-cms.vercel.app
+```
+Now `/studio` on `alrawaabit.com` redirects to the deployed CMS.
+
+---
+
 ### Step 3: Resend Email Setup (Recommended)
 
 The contact form is wired up but needs a real Resend API key. To activate:

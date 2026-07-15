@@ -39,7 +39,7 @@ export const caseStudy = defineType({
       fields: [{ name: 'alt', type: 'string', title: 'Alt Text' }],
     }),
     defineField({ name: 'challenge', title: 'The Challenge', type: 'internationalizedArray', group: 'details' }),
-    defineField({ name: 'solution', title: 'The Solution', type: 'internationalizedArray', group: 'details' }),
+        defineField({ name: 'solution', title: 'The Solution', type: 'internationalizedArray', group: 'details' }),
     defineField({
       name: 'results', title: 'Results / Metrics', type: 'array', group: 'details',
       of: [

@@ -24,9 +24,9 @@ export const blogPost = defineType({
       description: 'A short summary that appears on the blog index page and in search results.',
     }),
     defineField({
-      name: 'body', title: 'Article Body', type: 'internationalizedArray', group: 'content',
-      description: 'The main content of the blog post.',
-    }),
+          name: 'body', title: 'Article Body', type: 'internationalizedArray', group: 'content',
+          description: 'The main content of the blog post.',
+        }),
     defineField({ name: 'author', title: 'Author', type: 'reference', group: 'meta', to: [{ type: 'author' }] }),
     defineField({
       name: 'categories', title: 'Categories', type: 'array', group: 'meta',
