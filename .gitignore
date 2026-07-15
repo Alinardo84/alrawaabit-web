@@ -54,3 +54,4 @@ public/media/generation-results.json
 logs
 *.log
 .vercel
+.env*
