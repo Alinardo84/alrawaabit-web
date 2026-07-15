@@ -1,5 +1,4 @@
 import { redirect } from 'next/navigation';
-import { type Locale, defaultLocale, locales } from '@/lib/i18n';
 
 /**
  * Redirects /{locale}/studio to the dedicated Studio deployment.
@@ -8,17 +7,16 @@ import { type Locale, defaultLocale, locales } from '@/lib/i18n';
  *
  * If unset, falls back to Sanity's hosted Studio URL.
  *
- * Available under every locale so users can hit /ar/studio, /en/studio, /fr/studio.
+ * Lives under [locale] so the i18n middleware accepts the path;
+ * the redirect target itself is locale-independent.
  */
 export default async function StudioRedirect({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
-  const { locale: raw } = await params;
-  const locale: Locale = (locales as readonly string[]).includes(raw) ? (raw as Locale) : defaultLocale;
-  const url =
-    process.env.NEXT_PUBLIC_STUDIO_URL ||
-    'https://alrawaabit.sanity.studio';
-  redirect(url);
+  await params; // satisfy Next.js [locale] segment typing
+  redirect(
+    process.env.NEXT_PUBLIC_STUDIO_URL || 'https://alrawaabit.sanity.studio'
+  );
 }
