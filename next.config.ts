@@ -1,11 +1,17 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+  transpilePackages: [],
+  outputFileTracingExcludes: {
+    '*': ['studio/**', '.agents/**'],
+  },
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'cdn.higgsfield.ai' },
       { protocol: 'https', hostname: '*.higgsfield.ai' },
       { protocol: 'https', hostname: 'alrawaabit.com' },
+      { protocol: 'https', hostname: 'cdn.sanity.io' },
+      { protocol: 'https', hostname: '*.cdn.sanity.io' },
     ],
     formats: ['image/avif', 'image/webp'],
   },
