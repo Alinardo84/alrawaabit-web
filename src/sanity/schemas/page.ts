@@ -102,7 +102,7 @@ export const page = defineType({
     defineField({
       name: 'body',
       title: 'Page Body Content',
-      type: 'internationalizedArray',
+      type: 'internationalizedArrayBlockContent',
       group: 'content',
     }),
     defineField({

@@ -59,11 +59,5 @@ export const blockContent = defineType({
         { name: 'caption', type: 'string', title: 'Caption' },
       ],
     }),
-    defineArrayMember({
-      type: 'code',
-      name: 'codeBlock',
-      title: 'Code Block',
-      options: { language: 'tsx' },
-    }),
   ],
 });

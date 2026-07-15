@@ -38,8 +38,8 @@ export const caseStudy = defineType({
       options: { hotspot: true }, validation: (Rule) => Rule.required(),
       fields: [{ name: 'alt', type: 'string', title: 'Alt Text' }],
     }),
-    defineField({ name: 'challenge', title: 'The Challenge', type: 'internationalizedArray', group: 'details' }),
-        defineField({ name: 'solution', title: 'The Solution', type: 'internationalizedArray', group: 'details' }),
+    defineField({ name: 'challenge', title: 'The Challenge', type: 'internationalizedArrayBlockContent', group: 'details' }),
+        defineField({ name: 'solution', title: 'The Solution', type: 'internationalizedArrayBlockContent', group: 'details' }),
     defineField({
       name: 'results', title: 'Results / Metrics', type: 'array', group: 'details',
       of: [

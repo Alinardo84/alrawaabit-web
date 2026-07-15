@@ -13,6 +13,7 @@
 import { defineConfig } from 'sanity';
 import { structureTool } from 'sanity/structure';
 import { visionTool } from '@sanity/vision';
+import { internationalizedArray } from 'sanity-plugin-internationalized-array';
 import { schemaTypes } from '../src/sanity/schemas';
 
 const projectId =
@@ -27,8 +28,17 @@ export default defineConfig({
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || 'production',
   basePath: '/',
   plugins: [
-    structureTool(),
-    visionTool(),
-  ],
+      structureTool(),
+      visionTool(),
+      internationalizedArray({
+        languages: [
+          { id: 'ar', title: 'Arabic' },
+          { id: 'en', title: 'English' },
+          { id: 'fr', title: 'French' },
+        ],
+        defaultLanguages: ['ar', 'en', 'fr'],
+        fieldTypes: ['string', 'text', 'blockContent'],
+      }),
+    ],
   schema: { types: schemaTypes },
 });
